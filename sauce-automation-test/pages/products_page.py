@@ -46,7 +46,7 @@ class ProductsPage:
             WebDriverWait(self.driver, self.timeout).until(EC.url_contains("cart.html"))
         except Exception:
             WebDriverWait(self.driver, self.timeout).until(
-                EC.text_to_be_present_in_element(ProductsLocators.TITLE, "Your Cart")
+                EC.presence_of_element_located(ProductsLocators.CART_CONTENTS)
             )
 
     def sort_low_to_high(self):
