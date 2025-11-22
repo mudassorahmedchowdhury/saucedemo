@@ -1,0 +1,7 @@
+{
+  "base_url": "https://www.saucedemo.com/",
+  "browser": "chrome",
+  "headless": false,
+  "implicit_wait": 10,
+  "timeout": 30
+}
