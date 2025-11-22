@@ -8,3 +8,4 @@ class ProductsLocators:
     PRICE = (By.CLASS_NAME, "inventory_item_price")
     INVENTORY_CONTAINER = (By.ID, "inventory_container")
     ITEM_NAME = (By.CSS_SELECTOR, ".inventory_item .inventory_item_name")
+    CART_CONTENTS = (By.ID, "cart_contents_container")
